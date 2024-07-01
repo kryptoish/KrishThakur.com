@@ -1,1 +1,0 @@
-# amb-npm-package
