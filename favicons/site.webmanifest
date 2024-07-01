@@ -1,0 +1,11 @@
+{   
+    "name": "Krish Thakur — Computer Engineer",
+    "short_name": "Krish Thakur",
+    "display": "browser",
+    "start_url": "/",
+    "background_color": "#161616",
+    "icons": [
+      { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
+      { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+    ]
+  }
