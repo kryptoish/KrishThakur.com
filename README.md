@@ -1,5 +1,4 @@
 <h1>website list---(add stuff if needed)</h1>
-<br/>-fix phone version
 <br/>-fix errors in console (the multiple three js instance one)
 <br/>-add projects and overhaul pics and work page (add all missing pages, links, display, and no trace of scalzo) change to work/experience and add exp section
 <br/>-build and redesign designlab page
