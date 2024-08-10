@@ -1,5 +1,6 @@
-<h1>website list-</h1>
-<br/>-rewrite the about section nicer with full detail and history
-<br/>-make sure it is unique and has no prev trace of error and clean up look nice and fix any text
-<br/>-try to fix webgl render context loss issue after release (other below and deal with it later)
-<br/>-once finished re commit all old and new files into github (keep .gitignore and CNAME untouched)
+<h1>website future additions</h1>
+<br/>-fix any problems that show up on (google core vitals)
+<br/>-add two more projects later
+<br/>-fix old_pc disappear prob one day
+<br/>-add gtag one day
+<br/>-make it so more projects and exp can fit one day
