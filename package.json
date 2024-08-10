@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@barba/core": "^2.10.0",
+    "@types/jasmine": "^5.1.4",
+    "@types/jquery": "^3.5.30",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^22.1.0",
+    "@types/splitting": "^1.0.6",
+    "@types/three": "^0.167.1",
+    "lodash": "^4.17.21"
+  },
+  "dependencies": {
+    "barba": "^1.0.0",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.5",
+    "normalize-wheel": "^1.0.1",
+    "ogl": "^1.0.7",
+    "splitting": "^1.1.0",
+    "three": "^0.166.0"
+  }
+}
