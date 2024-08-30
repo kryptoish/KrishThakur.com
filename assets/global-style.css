@@ -1484,7 +1484,7 @@ html.is-animating .transition-fade {
 }
 @media screen and (min-width: 1024px) {
   .intro {
-    padding-top: 27.314815vh;
+    padding-top: 24.314815vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     column-gap: 20px;
