@@ -5,9 +5,11 @@
     "@types/jquery": "^3.5.30",
     "@types/lodash": "^4.17.7",
     "@types/node": "^22.1.0",
+    "@types/normalize-wheel": "^1.0.4",
     "@types/splitting": "^1.0.6",
-    "@types/three": "^0.167.1",
-    "lodash": "^4.17.21"
+    "@types/three": "^0.175.0",
+    "lodash": "^4.17.21",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "barba": "^1.0.0",

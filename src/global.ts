@@ -115,7 +115,7 @@ const initPageTransitions = () => {
     transitions: [
       {
         name: "transition",
-        async leave(data) {
+        async leave(data: { current: { container: gsap.TweenTarget; }; }) {
           disposeWorkDetails();
           disposelifeDisplay();
 
