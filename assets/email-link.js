@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Encoded email address
-    var encodedEmail = "&#107;&#116;&#104;&#97;&#107;&#117;&#48;&#50;&#64;&#115;&#116;&#117;&#100;&#101;&#110;&#116;&#46;&#117;&#98;&#99;&#46;&#99;&#97;";
+    var encodedEmail = "&#107;&#114;&#105;&#115;&#104;&#116;&#104;&#97;&#107;&#117;&#114;&#64;&#114;&#117;&#110;&#105;&#120;&#46;&#99;&#108;&#111;&#117;&#100;";
     
     // Decode the email address
     var email = encodedEmail.replace(/&#(\d+);/g, function(match, dec) {
