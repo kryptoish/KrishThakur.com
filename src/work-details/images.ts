@@ -43,6 +43,13 @@ import Image64 from "/projects/06/4.webp";
 import Image65 from "/projects/06/5.webp";
 import Image66 from "/projects/06/6.webp";
 
+import Image71 from "/projects/07/1.webp";
+import Image72 from "/projects/07/2.webp";
+import Image73 from "/projects/07/3.webp";
+import Image74 from "/projects/07/4.webp";
+import Image75 from "/projects/07/5.webp";
+import Image76 from "/projects/07/6.webp";
+
 export const images = {
   1: [
     { image: Image11 },
@@ -133,5 +140,19 @@ export const images = {
     { image: Image64 },
     { image: Image65 },
     { image: Image66 },
+  ],
+  7: [
+    { image: Image71 },
+    { image: Image72 },
+    { image: Image73 },
+    { image: Image74 },
+    { image: Image75 },
+    { image: Image76 },
+    { image: Image71 },
+    { image: Image72 },
+    { image: Image73 },
+    { image: Image74 },
+    { image: Image75 },
+    { image: Image76 },
   ],
 };
