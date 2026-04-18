@@ -9,7 +9,7 @@ const pc_model = () => {
     const scene = new THREE.Scene();
     //create a new camera with positions and angles
     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 800);
-``
+
     //Keep track of the mouse position, so we can make the eye move
     let mouseX = window.innerWidth / 3;
     let mouseY = window.innerHeight / 3;
@@ -62,12 +62,12 @@ const pc_model = () => {
 
     //Add lights to the scene, so we can actually see the 3D model
 
-    const topLight = new THREE.DirectionalLight(0xffffff, 1); // (color, intensity)
+    const topLight = new THREE.DirectionalLight(0xffffff, 3); // (color, intensity)
     topLight.position.set(500, 500, 500) //top-left-ish
     topLight.castShadow = true;
     scene.add(topLight);
 
-    const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "old_pc" ? 5 : 1);
+    const ambientLight = new THREE.AmbientLight(0x888888, objToRender === "old_pc" ? 5 : 1);
     scene.add(ambientLight);
 
     //Render the scene

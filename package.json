@@ -1,4 +1,8 @@
 {
+  "type": "module",
+  "scripts": {
+    "build:pc": "vite build"
+  },
   "devDependencies": {
     "@barba/core": "^2.10.0",
     "@types/jasmine": "^5.1.4",
@@ -9,7 +13,8 @@
     "@types/splitting": "^1.0.6",
     "@types/three": "^0.175.0",
     "lodash": "^4.17.21",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vite": "^5.4.0"
   },
   "dependencies": {
     "barba": "^1.0.0",

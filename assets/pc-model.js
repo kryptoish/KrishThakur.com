@@ -1,8 +1,8 @@
 
 //Import the THREE.js library
-import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
+import * as THREE from "three";
 // To allow for importing the .gltf file
-import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 const pc_model = () => {
     //Create a Three.JS Scene
@@ -61,12 +61,12 @@ const pc_model = () => {
 
     //Add lights to the scene, so we can actually see the 3D model
 
-    const topLight = new THREE.DirectionalLight(0xffffff, 1); // (color, intensity)
+    const topLight = new THREE.DirectionalLight(0xffffff, 3); // (color, intensity)
     topLight.position.set(500, 500, 500) //top-left-ish
     topLight.castShadow = true;
     scene.add(topLight);
 
-    const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "old_pc" ? 5 : 1);
+    const ambientLight = new THREE.AmbientLight(0x888888, objToRender === "old_pc" ? 5 : 1);
     scene.add(ambientLight);
 
     //Render the scene
